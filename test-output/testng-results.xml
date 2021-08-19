@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="96230" started-at="2021-08-18T18:42:53 IST" finished-at="2021-08-18T18:44:30 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="96230" started-at="2021-08-18T18:42:53 IST" finished-at="2021-08-18T18:44:30 IST">
+      <class name="launchscript.LaunchScript">
+        <test-method status="PASS" signature="LaunchScript()[pri:0, instance:launchscript.LaunchScript@2698dc7]" name="LaunchScript" duration-ms="96208" started-at="2021-08-18T18:42:53 IST" finished-at="2021-08-18T18:44:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchScript -->
+      </class> <!-- launchscript.LaunchScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

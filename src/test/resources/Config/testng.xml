@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><suite name="Suite" parallel="tests">
+  <listners>
+    <listner class-name="Utilities.TestListener"/>
+  </listners>
+  <test name="RedmiK20Pro">
+    <parameter name="selenium.deviceName" value="RedmiK20Pro"/>
+    <parameter name="selenium.PlatformName" value="Android"/>
+    <parameter name="selenium.PlatformVersion" value="11"/>
+    <classes>
+      <class name="testcases.TestCases">
+        <methods>
+          <include name="MOB_TC001_LogIntoTreatApp"/>
+          <include name="MOB_TC002_LogIntoTreatApp"/>
+          <exclude name=""/>
+          <exclude name=""/>
+          <exclude name=""/>
+          <exclude name=""/>
+          <exclude name=""/>
+          <exclude name=""/>
+          <exclude name=""/>
+          <exclude name=""/>
+          <exclude name=""/>
+          <exclude name=""/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
